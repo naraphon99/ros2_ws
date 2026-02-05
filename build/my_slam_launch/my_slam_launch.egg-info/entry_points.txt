@@ -1,0 +1,4 @@
+[console_scripts]
+base_footprint = my_slam_launch.base_footprint:main
+laser_tf_pub = my_slam_launch.laser_tf_pub:main
+

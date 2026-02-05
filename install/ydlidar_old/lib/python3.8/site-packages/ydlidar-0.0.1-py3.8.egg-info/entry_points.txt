@@ -1,0 +1,3 @@
+[console_scripts]
+ydlidar_node = ydlidar.ydlidar_node:main
+

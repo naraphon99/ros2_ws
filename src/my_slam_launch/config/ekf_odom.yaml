@@ -1,0 +1,37 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 50.0          # match ESP32 odom 20 Hz
+    use_sim_time: false
+    sensor_timeout: 1.0
+    two_d_mode: true
+    publish_tf: true
+
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    odometry0: /odom
+    odometry0_config: [true, true, false,
+                       false, false, true,
+                       true, true, false,
+                       false, false, true,
+                       false, false, false]
+
+    odometry0_differential: true
+    odometry0_relative: false
+
+    queue_size: 100
+    reset_on_time_jump: true
+    smooth_lagged_data: true
+    wait_for_diagnostics: true
+
+    print_diagnostics: false
+    debug: false
+
+    qos_overrides:
+      /odom:
+        reliability: reliable
+        history: keep_last
+        depth: 50
+

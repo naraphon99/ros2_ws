@@ -1,0 +1,15 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/Pause.srv",
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/ClearQueue.srv",
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/ToggleInteractive.srv",
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/Clear.srv",
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/SaveMap.srv",
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/LoopClosure.srv",
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/MergeMaps.srv",
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/AddSubmap.srv",
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/DeserializePoseGraph.srv",
+    "/home/naraphon9/ros2_ws/src/slam_toolbox:srvs/SerializePoseGraph.srv"
+  ]
+}

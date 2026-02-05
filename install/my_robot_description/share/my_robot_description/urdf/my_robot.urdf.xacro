@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<robot name="my_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Base link -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.20 0.15 0.02"/> <!-- กว้าง 15 cm ยาว 20 cm หนา 2 cm -->
+      </geometry>
+      <origin xyz="0 0 0.0425" rpy="0 0 0"/> <!-- ชั้นแรกสูงจากพื้น 8 cm -->
+      <material name="grey">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Left wheel -->
+  <link name="left_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.065" length="0.0325"/> <!-- รัศมี 3 cm -->
+      </geometry>
+      <origin xyz="0 0.075 0.03" rpy="1.5708 0 0"/> <!-- ล้อแตะพื้น -->
+      <material name="black">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Right wheel -->
+  <link name="right_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.065" length="0.0325"/>
+      </geometry>
+      <origin xyz="0 -0.075 0.03" rpy="1.5708 0 0"/>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <!-- Front caster -->
+  <link name="front_caster">
+    <visual>
+      <geometry>
+        <sphere radius="0.025"/>
+      </geometry>
+      <origin xyz="0.075 0 0.025" rpy="0 0 0"/> <!-- แตะพื้นเหมือนล้อ -->
+      <material name="orange">
+        <color rgba="1 0.5 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- LiDAR -->
+  <link name="laser_frame">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.02"/>
+      </geometry>
+      <origin xyz="0 0 0.369675" rpy="0 0 0"/> <!-- ชั้น3 สูงจากพื้น 0.43 m -->
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- JOINTS -->
+  <joint name="base_to_left_wheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+    <origin xyz="0 0.075 -0.05" rpy="0 0 0"/> <!-- ปรับให้ล้อชนพื้น -->
+  </joint>
+
+  <joint name="base_to_right_wheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+    <origin xyz="0 -0.075 -0.05" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="base_to_front_caster" type="fixed">
+    <parent link="base_link"/>
+    <child link="front_caster"/>
+    <origin xyz="0.08 0 -0.055" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="base_to_laser" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser_frame"/>
+    <origin xyz="0 0 0.35" rpy="0 0 0"/> <!-- z จาก base_link ถึง LiDAR = 0.35 m -->
+  </joint>
+
+</robot>
+

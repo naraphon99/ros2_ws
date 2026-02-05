@@ -1,0 +1,37 @@
+[0.891s] Invoking command in '/home/naraphon9/ros2_ws/src/my_pose_pub': PYTHONPATH=/home/naraphon9/ros2_ws/build/my_pose_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pose_pub build --build-base /home/naraphon9/ros2_ws/build/my_pose_pub/build install --record /home/naraphon9/ros2_ws/build/my_pose_pub/install.log --install-scripts $base/lib/my_pose_pub --single-version-externally-managed install_data
+[1.063s] running egg_info
+[1.063s] creating ../../build/my_pose_pub/my_pose_pub.egg-info
+[1.064s] writing ../../build/my_pose_pub/my_pose_pub.egg-info/PKG-INFO
+[1.064s] writing dependency_links to ../../build/my_pose_pub/my_pose_pub.egg-info/dependency_links.txt
+[1.064s] writing entry points to ../../build/my_pose_pub/my_pose_pub.egg-info/entry_points.txt
+[1.064s] writing requirements to ../../build/my_pose_pub/my_pose_pub.egg-info/requires.txt
+[1.064s] writing top-level names to ../../build/my_pose_pub/my_pose_pub.egg-info/top_level.txt
+[1.065s] writing manifest file '../../build/my_pose_pub/my_pose_pub.egg-info/SOURCES.txt'
+[1.093s] reading manifest file '../../build/my_pose_pub/my_pose_pub.egg-info/SOURCES.txt'
+[1.093s] writing manifest file '../../build/my_pose_pub/my_pose_pub.egg-info/SOURCES.txt'
+[1.093s] running build
+[1.093s] running build_py
+[1.094s] creating /home/naraphon9/ros2_ws/build/my_pose_pub/build
+[1.094s] creating /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib
+[1.094s] creating /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub
+[1.094s] copying my_pose_pub/__init__.py -> /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub
+[1.094s] copying my_pose_pub/pose2d_to_ekf.py -> /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub
+[1.094s] running install
+[1.095s] running install_lib
+[1.095s] creating /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub
+[1.096s] copying /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub/__init__.py -> /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub
+[1.096s] copying /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub/pose2d_to_ekf.py -> /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub
+[1.096s] byte-compiling /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub/__init__.py to __init__.cpython-38.pyc
+[1.097s] byte-compiling /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub/pose2d_to_ekf.py to pose2d_to_ekf.cpython-38.pyc
+[1.097s] running install_data
+[1.097s] creating /home/naraphon9/ros2_ws/install/my_pose_pub/share/ament_index
+[1.098s] creating /home/naraphon9/ros2_ws/install/my_pose_pub/share/ament_index/resource_index
+[1.098s] creating /home/naraphon9/ros2_ws/install/my_pose_pub/share/ament_index/resource_index/packages
+[1.098s] copying resource/my_pose_pub -> /home/naraphon9/ros2_ws/install/my_pose_pub/share/ament_index/resource_index/packages
+[1.098s] copying package.xml -> /home/naraphon9/ros2_ws/install/my_pose_pub/share/my_pose_pub
+[1.098s] running install_egg_info
+[1.100s] Copying ../../build/my_pose_pub/my_pose_pub.egg-info to /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub-0.0.0-py3.8.egg-info
+[1.100s] running install_scripts
+[1.115s] Installing pose2d_to_ekf script to /home/naraphon9/ros2_ws/install/my_pose_pub/lib/my_pose_pub
+[1.115s] writing list of installed files to '/home/naraphon9/ros2_ws/build/my_pose_pub/install.log'
+[1.136s] Invoked command in '/home/naraphon9/ros2_ws/src/my_pose_pub' returned '0': PYTHONPATH=/home/naraphon9/ros2_ws/build/my_pose_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pose_pub build --build-base /home/naraphon9/ros2_ws/build/my_pose_pub/build install --record /home/naraphon9/ros2_ws/build/my_pose_pub/install.log --install-scripts $base/lib/my_pose_pub --single-version-externally-managed install_data

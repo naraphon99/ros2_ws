@@ -1,0 +1,1 @@
+/home/naraphon9/ros2_ws/src/build/ydlidar/ament_cmake_core/ydlidarConfig-version.cmake

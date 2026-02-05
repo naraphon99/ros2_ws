@@ -1,0 +1,21 @@
+[0.875s] Invoking command in '/home/naraphon9/ros2_ws/ydlidar_old': PYTHONPATH=/home/naraphon9/ros2_ws/build/ydlidar_old/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naraphon9/ros2_ws/install/ydlidar_old/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ydlidar_old build --build-base /home/naraphon9/ros2_ws/build/ydlidar_old/build install --record /home/naraphon9/ros2_ws/build/ydlidar_old/install.log --single-version-externally-managed install_data
+[1.017s] running egg_info
+[1.017s] writing ../build/ydlidar_old/ydlidar.egg-info/PKG-INFO
+[1.018s] writing dependency_links to ../build/ydlidar_old/ydlidar.egg-info/dependency_links.txt
+[1.018s] writing entry points to ../build/ydlidar_old/ydlidar.egg-info/entry_points.txt
+[1.018s] writing requirements to ../build/ydlidar_old/ydlidar.egg-info/requires.txt
+[1.018s] writing top-level names to ../build/ydlidar_old/ydlidar.egg-info/top_level.txt
+[1.042s] reading manifest file '../build/ydlidar_old/ydlidar.egg-info/SOURCES.txt'
+[1.042s] writing manifest file '../build/ydlidar_old/ydlidar.egg-info/SOURCES.txt'
+[1.043s] running build
+[1.043s] running build_py
+[1.043s] running install
+[1.044s] running install_lib
+[1.044s] running install_data
+[1.044s] running install_egg_info
+[1.046s] removing '/home/naraphon9/ros2_ws/install/ydlidar_old/lib/python3.8/site-packages/ydlidar-0.0.1-py3.8.egg-info' (and everything under it)
+[1.046s] Copying ../build/ydlidar_old/ydlidar.egg-info to /home/naraphon9/ros2_ws/install/ydlidar_old/lib/python3.8/site-packages/ydlidar-0.0.1-py3.8.egg-info
+[1.047s] running install_scripts
+[1.061s] Installing ydlidar_node script to /home/naraphon9/ros2_ws/install/ydlidar_old/bin
+[1.061s] writing list of installed files to '/home/naraphon9/ros2_ws/build/ydlidar_old/install.log'
+[1.082s] Invoked command in '/home/naraphon9/ros2_ws/ydlidar_old' returned '0': PYTHONPATH=/home/naraphon9/ros2_ws/build/ydlidar_old/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naraphon9/ros2_ws/install/ydlidar_old/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ydlidar_old build --build-base /home/naraphon9/ros2_ws/build/ydlidar_old/build install --record /home/naraphon9/ros2_ws/build/ydlidar_old/install.log --single-version-externally-managed install_data

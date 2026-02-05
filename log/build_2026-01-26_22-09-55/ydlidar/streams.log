@@ -1,0 +1,33 @@
+[0.826s] Invoking command in '/home/naraphon9/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar_old:/home/naraphon9/ros2_ws/install/my_slam_launch:/home/naraphon9/ros2_ws/install/my_robot_description:/home/naraphon9/ros2_ws/install/my_pose_pub:/opt/ros/foxy /opt/cmake-3.26/bin/cmake --build /home/naraphon9/ros2_ws/build/ydlidar -- -j20 -l20
+[1.139s] [ 18%] Built target ydlidar_client
+[1.139s] [100%] Built target ydlidar_node
+[1.139s] Invoked command in '/home/naraphon9/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar_old:/home/naraphon9/ros2_ws/install/my_slam_launch:/home/naraphon9/ros2_ws/install/my_robot_description:/home/naraphon9/ros2_ws/install/my_pose_pub:/opt/ros/foxy /opt/cmake-3.26/bin/cmake --build /home/naraphon9/ros2_ws/build/ydlidar -- -j20 -l20
+[1.147s] Invoking command in '/home/naraphon9/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar_old:/home/naraphon9/ros2_ws/install/my_slam_launch:/home/naraphon9/ros2_ws/install/my_robot_description:/home/naraphon9/ros2_ws/install/my_pose_pub:/opt/ros/foxy /opt/cmake-3.26/bin/cmake --install /home/naraphon9/ros2_ws/build/ydlidar
+[1.156s] -- Install configuration: ""
+[1.157s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[1.159s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[1.159s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/launch
+[1.160s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch_view.py
+[1.163s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/launch/lidar_only_launch.py
+[1.164s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[1.165s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_slam_launch.py
+[1.165s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/params
+[1.166s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[1.166s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/startup
+[1.166s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[1.166s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[1.167s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[1.167s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[1.167s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[1.167s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[1.168s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[1.168s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[1.170s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[1.171s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[1.171s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[1.172s] -- Installing: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
+[1.173s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[1.174s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[1.175s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[1.175s] -- Up-to-date: /home/naraphon9/ros2_ws/install/ydlidar/share/ydlidar/package.xml
+[1.229s] Invoked command in '/home/naraphon9/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar_old:/home/naraphon9/ros2_ws/install/my_slam_launch:/home/naraphon9/ros2_ws/install/my_robot_description:/home/naraphon9/ros2_ws/install/my_pose_pub:/opt/ros/foxy /opt/cmake-3.26/bin/cmake --install /home/naraphon9/ros2_ws/build/ydlidar

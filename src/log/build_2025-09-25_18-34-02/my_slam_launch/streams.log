@@ -1,0 +1,28 @@
+[0.348s] Invoking command in '/home/naraphon9/ros2_ws/src/build/my_slam_launch': PYTHONPATH=/home/naraphon9/ros2_ws/src/build/my_slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naraphon9/ros2_ws/src/install/my_slam_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/naraphon9/ros2_ws/src/build/my_slam_launch/build --no-deps symlink_data
+[0.470s] running develop
+[0.530s] running egg_info
+[0.531s] creating my_slam_launch.egg-info
+[0.531s] writing my_slam_launch.egg-info/PKG-INFO
+[0.531s] writing dependency_links to my_slam_launch.egg-info/dependency_links.txt
+[0.531s] writing entry points to my_slam_launch.egg-info/entry_points.txt
+[0.531s] writing requirements to my_slam_launch.egg-info/requires.txt
+[0.531s] writing top-level names to my_slam_launch.egg-info/top_level.txt
+[0.532s] writing manifest file 'my_slam_launch.egg-info/SOURCES.txt'
+[0.548s] reading manifest file 'my_slam_launch.egg-info/SOURCES.txt'
+[0.548s] writing manifest file 'my_slam_launch.egg-info/SOURCES.txt'
+[0.566s] running build_ext
+[0.566s] Creating /home/naraphon9/ros2_ws/src/install/my_slam_launch/lib/python3.8/site-packages/site.py
+[0.567s] Creating /home/naraphon9/ros2_ws/src/install/my_slam_launch/lib/python3.8/site-packages/my-slam-launch.egg-link (link to .)
+[0.568s] 
+[0.568s] Installed /home/naraphon9/ros2_ws/src/build/my_slam_launch
+[0.568s] running symlink_data
+[0.568s] creating /home/naraphon9/ros2_ws/src/install/my_slam_launch/share/ament_index
+[0.568s] creating /home/naraphon9/ros2_ws/src/install/my_slam_launch/share/ament_index/resource_index
+[0.568s] creating /home/naraphon9/ros2_ws/src/install/my_slam_launch/share/ament_index/resource_index/packages
+[0.568s] symbolically linking /home/naraphon9/ros2_ws/src/build/my_slam_launch/resource/my_slam_launch -> /home/naraphon9/ros2_ws/src/install/my_slam_launch/share/ament_index/resource_index/packages
+[0.568s] symbolically linking /home/naraphon9/ros2_ws/src/build/my_slam_launch/package.xml -> /home/naraphon9/ros2_ws/src/install/my_slam_launch/share/my_slam_launch
+[0.568s] creating /home/naraphon9/ros2_ws/src/install/my_slam_launch/share/my_slam_launch/launch
+[0.568s] symbolically linking /home/naraphon9/ros2_ws/src/build/my_slam_launch/launch/slam_with_tf_launch.py -> /home/naraphon9/ros2_ws/src/install/my_slam_launch/share/my_slam_launch/launch
+[0.568s] creating /home/naraphon9/ros2_ws/src/install/my_slam_launch/share/my_slam_launch/config
+[0.568s] symbolically linking /home/naraphon9/ros2_ws/src/build/my_slam_launch/config/slam.rviz -> /home/naraphon9/ros2_ws/src/install/my_slam_launch/share/my_slam_launch/config
+[0.583s] Invoked command in '/home/naraphon9/ros2_ws/src/build/my_slam_launch' returned '0': PYTHONPATH=/home/naraphon9/ros2_ws/src/build/my_slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naraphon9/ros2_ws/src/install/my_slam_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/naraphon9/ros2_ws/src/build/my_slam_launch/build --no-deps symlink_data

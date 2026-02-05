@@ -1,0 +1,1 @@
+/home/naraphon9/ros2_ws/src/ydlidar_ros2/launch/ydlidar_launch.py

@@ -1,0 +1,13 @@
+ekf_filter_node:
+  frequency: 20.0        # ความถี่ที่ EKF จะ publish odom ใหม่
+  sensor_timeout: 0.1
+  two_d_mode: true       # Robot 2D
+  publish_tf: true       # EKF จะ publish odom -> base_link
+
+  odom0: /odom           # Topic odom ของ robot (1.25 Hz)
+  odom0_config: [true, true, false,  # x, y, z
+                 false, false, true, # roll, pitch, yaw
+                 false, false, false, # vx, vy, vz
+                 false, false, false, # vroll, vpitch, vyaw
+                 false, false, false] # ax, ay
+  odom0_queue_size: 10

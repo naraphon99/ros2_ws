@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/my_pose_pub/my_pose_pub.egg-info
+writing ../../build/my_pose_pub/my_pose_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_pose_pub/my_pose_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/my_pose_pub/my_pose_pub.egg-info/entry_points.txt
+writing requirements to ../../build/my_pose_pub/my_pose_pub.egg-info/requires.txt
+writing top-level names to ../../build/my_pose_pub/my_pose_pub.egg-info/top_level.txt
+writing manifest file '../../build/my_pose_pub/my_pose_pub.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_pose_pub/my_pose_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_pose_pub/my_pose_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/naraphon9/ros2_ws/build/my_pose_pub/build
+creating /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib
+creating /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub
+copying my_pose_pub/__init__.py -> /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub
+copying my_pose_pub/pose2d_to_ekf.py -> /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub
+running install
+running install_lib
+creating /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub
+copying /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub/__init__.py -> /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub
+copying /home/naraphon9/ros2_ws/build/my_pose_pub/build/lib/my_pose_pub/pose2d_to_ekf.py -> /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub
+byte-compiling /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub/pose2d_to_ekf.py to pose2d_to_ekf.cpython-38.pyc
+running install_data
+creating /home/naraphon9/ros2_ws/install/my_pose_pub/share/ament_index
+creating /home/naraphon9/ros2_ws/install/my_pose_pub/share/ament_index/resource_index
+creating /home/naraphon9/ros2_ws/install/my_pose_pub/share/ament_index/resource_index/packages
+copying resource/my_pose_pub -> /home/naraphon9/ros2_ws/install/my_pose_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/naraphon9/ros2_ws/install/my_pose_pub/share/my_pose_pub
+running install_egg_info
+Copying ../../build/my_pose_pub/my_pose_pub.egg-info to /home/naraphon9/ros2_ws/install/my_pose_pub/lib/python3.8/site-packages/my_pose_pub-0.0.0-py3.8.egg-info
+running install_scripts
+Installing pose2d_to_ekf script to /home/naraphon9/ros2_ws/install/my_pose_pub/lib/my_pose_pub
+writing list of installed files to '/home/naraphon9/ros2_ws/build/my_pose_pub/install.log'

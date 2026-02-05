@@ -1,0 +1,3 @@
+[console_scripts]
+pose2d_to_ekf = my_pose_pub.pose2d_to_ekf:main
+

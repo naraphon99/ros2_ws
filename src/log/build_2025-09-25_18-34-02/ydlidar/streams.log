@@ -1,0 +1,306 @@
+[0.120s] Invoking command in '/home/naraphon9/ros2_ws/src/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar:/opt/ros/foxy /opt/cmake-3.26/bin/cmake /home/naraphon9/ros2_ws/src/ydlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/naraphon9/ros2_ws/src/install/ydlidar
+[0.147s] -- The C compiler identification is GNU 9.4.0
+[0.180s] -- The CXX compiler identification is GNU 9.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.222s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.222s] -- Detecting C compile features
+[0.222s] -- Detecting C compile features - done
+[0.225s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.285s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.285s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.378s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.391s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.422s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.463s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.481s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.558s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.559s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.560s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.594s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.595s] -- Looking for pthread_create in pthreads
+[0.622s] -- Looking for pthread_create in pthreads - not found
+[0.622s] -- Looking for pthread_create in pthread
+[0.652s] -- Looking for pthread_create in pthread - found
+[0.653s] -- Found Threads: TRUE  
+[0.731s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.791s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.830s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.871s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.884s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.884s] -- Configured cppcheck include dirs: /home/naraphon9/ros2_ws/src/ydlidar_ros2/src;/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include;/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src
+[0.884s] -- Configured cppcheck exclude dirs and/or files: 
+[0.896s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.896s] -- Configured cpplint exclude dirs and/or files: 
+[0.898s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.901s] -- Added test 'lint_cmake' to check CMake code style
+[0.903s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.915s] -- Added test 'uncrustify' to check C / C++ code style
+[0.915s] -- Configured uncrustify additional arguments: 
+[0.917s] -- Added test 'xmllint' to check XML markup files
+[0.918s] -- Configuring done (0.8s)
+[0.926s] -- Generating done (0.0s)
+[0.928s] -- Build files have been written to: /home/naraphon9/ros2_ws/src/build/ydlidar
+[0.934s] Invoked command in '/home/naraphon9/ros2_ws/src/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar:/opt/ros/foxy /opt/cmake-3.26/bin/cmake /home/naraphon9/ros2_ws/src/ydlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/naraphon9/ros2_ws/src/install/ydlidar
+[0.935s] Invoking command in '/home/naraphon9/ros2_ws/src/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar:/opt/ros/foxy /opt/cmake-3.26/bin/cmake --build /home/naraphon9/ros2_ws/src/build/ydlidar -- -j20 -l20
+[0.944s] [  9%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o[0m
+[0.945s] [ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o[0m
+[0.945s] [ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o[0m
+[0.945s] [ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o[0m
+[0.945s] [ 45%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o[0m
+[0.946s] [ 54%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o[0m
+[0.946s] [ 63%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o[0m
+[0.946s] [ 72%] [32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o[0m
+[0.947s] [ 81%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o[0m
+[0.977s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/lock.c:[m[K In function ‘[01m[Kfhs_lock[m[K’:
+[0.978s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/lock.c:199:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.978s]   199 | int fhs_lock(const char *filename, [01;35m[Kint pid[m[K) {
+[0.978s]       |                                    [01;35m[K~~~~^~~[m[K
+[0.978s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/lock.c:[m[K In function ‘[01m[Kuucp_lock[m[K’:
+[0.978s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/lock.c:281:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.978s]   281 | int uucp_lock(const char *filename, [01;35m[Kint pid[m[K) {
+[0.978s]       |                                     [01;35m[K~~~~^~~[m[K
+[1.031s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/timer.h:2[m[K,
+[1.032s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_timer.cpp:2[m[K:
+[1.032s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[1.032s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.032s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[1.032s]       |                        [01;35m[K^[m[K
+[1.032s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.032s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.032s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.032s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.032s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.032s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.032s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.033s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.033s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.033s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.033s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.033s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.033s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.108s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[1.108s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/list_ports_linux.cpp:26[m[K:
+[1.108s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[1.109s]       |                        [01;35m[K^[m[K
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.109s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.110s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.110s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.112s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/list_ports_linux.cpp:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[1.112s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/list_ports_linux.cpp:58:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.112s]    58 |   int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[1.112s]       |       [01;35m[K^~~~~~~~~~~[m[K
+[1.145s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[1.145s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_serial.h:9[m[K,
+[1.145s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_serial.cpp:39[m[K:
+[1.145s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[1.145s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.145s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[1.145s]       |                        [01;35m[K^[m[K
+[1.145s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.146s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.148s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[1.148s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:54[m[K,
+[1.148s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[1.148s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[1.148s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[1.148s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.148s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[1.148s]       |                        [01;35m[K^[m[K
+[1.148s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.149s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.150s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_serial.cpp:[m[K In member function ‘[01m[Kbool serial::Serial::SerialImpl::setCustomBaudRate(long unsigned int)[m[K’:
+[1.150s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_serial.cpp:1235:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[1.150s]  1235 |   if ([01;35m[Kserial.custom_divisor * baudrate != serial.baud_base[m[K) {
+[1.150s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[1.150s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:56[m[K,
+[1.150s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[1.150s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[1.150s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[1.150s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:43:76:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[1.151s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[1.151s]       |                                                                            [01;35m[K^~~~[m[K
+[1.154s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[1.154s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[1.154s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[1.154s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[1.154s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.154s]   414 |   bool [01;35m[Kret[m[K = false;
+[1.154s]       |        [01;35m[K^~~[m[K
+[1.185s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:[m[K In member function ‘[01m[Kbool CYdLidar::doProcessSimple(LaserScan&, bool&)[m[K’:
+[1.185s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:216:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.185s]   216 |     for (int i = 0; [01;35m[Ki < count[m[K; i++) {
+[1.185s]       |                     [01;35m[K~~^~~~~~~[m[K
+[1.241s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[1.241s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/serial.cpp:11[m[K:
+[1.241s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[1.241s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.241s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[1.241s]       |                        [01;35m[K^[m[K
+[1.241s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.241s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.242s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.252s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/common.h:47[m[K,
+[1.253s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/serial.cpp:12[m[K:
+[1.253s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[1.253s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:43:76:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[1.253s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[1.253s]       |                                                                            [01;35m[K^~~~[m[K
+[1.273s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[1.273s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:54[m[K,
+[1.273s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:34[m[K:
+[1.273s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[1.274s]       |                        [01;35m[K^[m[K
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.274s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.275s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.275s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.275s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:56[m[K,
+[1.276s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:34[m[K:
+[1.276s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[1.276s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:43:76:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[1.276s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[1.276s]       |                                                                            [01;35m[K^~~~[m[K
+[1.278s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[1.279s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:34[m[K:
+[1.279s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[1.279s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.279s]   414 |   bool [01;35m[Kret[m[K = false;
+[1.279s]       |        [01;35m[K^~~[m[K
+[1.299s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::YDlidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[1.299s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:992:95:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around arithmetic in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[1.299s]   992 |                                          [01;35m[Kpackages.packageSampleDistance[package_Sample_Index] &[m[K
+[1.299s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.299s]   993 | [01;35m[K                                         0x0003[m[K)) << LIDAR_RESP_MEASUREMENT_QUALITY_SHIFT;
+[1.299s]       |                                          [01;35m[K~~~~~~[m[K                                                
+[1.694s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[1.694s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:54[m[K,
+[1.694s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[1.694s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:26[m[K:
+[1.694s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[1.694s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.694s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[1.694s]       |                        [01;35m[K^[m[K
+[1.694s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.694s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.694s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.695s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[1.696s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:56[m[K,
+[1.696s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[1.696s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:26[m[K:
+[1.696s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[1.696s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:43:76:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[1.696s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[1.696s]       |                                                                            [01;35m[K^~~~[m[K
+[1.699s] In file included from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[1.699s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[1.699s]                  from [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:26[m[K:
+[1.699s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[1.699s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.699s]   414 |   bool [01;35m[Kret[m[K = false;
+[1.699s]       |        [01;35m[K^~~[m[K
+[1.709s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.710s] [01m[K/home/naraphon9/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:208:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.710s]   208 |       for(int i=0; [01;35m[Ki < scan.points.size()[m[K; i++) {
+[1.710s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.740s] [ 90%] [32m[1mLinking CXX executable ydlidar_node[0m
+[2.843s] [ 90%] Built target ydlidar_node
+[3.802s] [100%] [32m[1mLinking CXX executable ydlidar_client[0m
+[4.134s] [100%] Built target ydlidar_client
+[4.141s] Invoked command in '/home/naraphon9/ros2_ws/src/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar:/opt/ros/foxy /opt/cmake-3.26/bin/cmake --build /home/naraphon9/ros2_ws/src/build/ydlidar -- -j20 -l20
+[4.150s] Invoking command in '/home/naraphon9/ros2_ws/src/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar:/opt/ros/foxy /opt/cmake-3.26/bin/cmake --install /home/naraphon9/ros2_ws/src/build/ydlidar
+[4.157s] -- Install configuration: ""
+[4.157s] -- Execute custom install script
+[4.157s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/lib/ydlidar/ydlidar_node
+[4.177s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/lib/ydlidar/ydlidar_client
+[4.194s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[4.221s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/launch/ydlidar_slam_launch.py
+[4.239s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[4.250s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/startup/initenv.sh
+[4.261s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[4.274s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[4.277s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[4.279s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[4.282s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/environment/path.sh
+[4.285s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/environment/path.dsv
+[4.293s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/local_setup.bash
+[4.296s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/local_setup.sh
+[4.312s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/local_setup.zsh
+[4.314s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/local_setup.dsv
+[4.318s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/package.dsv
+[4.321s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[4.325s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[4.329s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[4.337s] -- Symlinking: /home/naraphon9/ros2_ws/src/install/ydlidar/share/ydlidar/package.xml
+[4.343s] Invoked command in '/home/naraphon9/ros2_ws/src/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naraphon9/ros2_ws/install/ydlidar:/opt/ros/foxy /opt/cmake-3.26/bin/cmake --install /home/naraphon9/ros2_ws/src/build/ydlidar

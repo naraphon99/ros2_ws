@@ -1,0 +1,22 @@
+[0.781s] Invoking command in '/home/naraphon9/ros2_ws/src/my_slam_launch': PYTHONPATH=/home/naraphon9/ros2_ws/build/my_slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naraphon9/ros2_ws/install/my_slam_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_slam_launch build --build-base /home/naraphon9/ros2_ws/build/my_slam_launch/build install --record /home/naraphon9/ros2_ws/build/my_slam_launch/install.log --install-scripts $base/lib/my_slam_launch --single-version-externally-managed install_data
+[0.891s] running egg_info
+[0.891s] writing ../../build/my_slam_launch/my_slam_launch.egg-info/PKG-INFO
+[0.891s] writing dependency_links to ../../build/my_slam_launch/my_slam_launch.egg-info/dependency_links.txt
+[0.891s] writing entry points to ../../build/my_slam_launch/my_slam_launch.egg-info/entry_points.txt
+[0.891s] writing requirements to ../../build/my_slam_launch/my_slam_launch.egg-info/requires.txt
+[0.891s] writing top-level names to ../../build/my_slam_launch/my_slam_launch.egg-info/top_level.txt
+[0.910s] reading manifest file '../../build/my_slam_launch/my_slam_launch.egg-info/SOURCES.txt'
+[0.910s] writing manifest file '../../build/my_slam_launch/my_slam_launch.egg-info/SOURCES.txt'
+[0.910s] running build
+[0.910s] running build_py
+[0.910s] running install
+[0.911s] running install_lib
+[0.912s] running install_data
+[0.912s] running install_egg_info
+[0.913s] removing '/home/naraphon9/ros2_ws/install/my_slam_launch/lib/python3.8/site-packages/my_slam_launch-0.0.0-py3.8.egg-info' (and everything under it)
+[0.913s] Copying ../../build/my_slam_launch/my_slam_launch.egg-info to /home/naraphon9/ros2_ws/install/my_slam_launch/lib/python3.8/site-packages/my_slam_launch-0.0.0-py3.8.egg-info
+[0.913s] running install_scripts
+[0.926s] Installing base_footprint script to /home/naraphon9/ros2_ws/install/my_slam_launch/lib/my_slam_launch
+[0.926s] Installing laser_tf_pub script to /home/naraphon9/ros2_ws/install/my_slam_launch/lib/my_slam_launch
+[0.926s] writing list of installed files to '/home/naraphon9/ros2_ws/build/my_slam_launch/install.log'
+[0.953s] Invoked command in '/home/naraphon9/ros2_ws/src/my_slam_launch' returned '0': PYTHONPATH=/home/naraphon9/ros2_ws/build/my_slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naraphon9/ros2_ws/install/my_slam_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_slam_launch build --build-base /home/naraphon9/ros2_ws/build/my_slam_launch/build install --record /home/naraphon9/ros2_ws/build/my_slam_launch/install.log --install-scripts $base/lib/my_slam_launch --single-version-externally-managed install_data
